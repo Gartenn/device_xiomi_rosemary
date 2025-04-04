@@ -181,4 +181,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Firmware
-include vendor/xiaomi/rosemary-firmware/Config.mk
+include vendor/xiaomi/rosemary-firmware/config.mk
