@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_rosemary.mk
+    $(LOCAL_DIR)/colt_rosemary.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_rosemary-user \
-    legion_rosemary-userdebug \
-    legion_rosemary-eng
+    colt_rosemary-user \
+    colt_rosemary-userdebug \
+    colt_rosemary-eng
