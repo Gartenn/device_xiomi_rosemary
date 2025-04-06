@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/sigma_rosemary.mk
+    $(LOCAL_DIR)/xtended_rosemary.mk
 
 COMMON_LUNCH_CHOICES := \
-    sigma_rosemary-user \
-    sigma_rosemary-userdebug \
-    sigma_rosemary-eng
+    xtended_rosemary-user \
+    xtended_rosemary-userdebug \
+    xtended_rosemary-eng
