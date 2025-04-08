@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/clown_rosemary.mk
+    $(LOCAL_DIR)/posp_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     clown_rosemary-user \
-     clown_rosemary-userdebug \
-     clown_rosemary-eng
+     posp_rosemary-user \
+     posp_rosemary-userdebug \
+     posp_rosemary-eng
