@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rosemary.mk
+    $(LOCAL_DIR)/clown_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     lineage_rosemary-user \
-     lineage_rosemary-userdebug \
-     lineage_rosemary-eng
+     clown_rosemary-user \
+     clown_rosemary-userdebug \
+     clown_rosemary-eng
