@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_rosemary.mk
+    $(LOCAL_DIR)/colt_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     xtended_rosemary-user \
-     xtended_rosemary-userdebug \
-     xtended_rosemary-eng
+     colt_rosemary-user \
+     colt_rosemary-userdebug \
+     colt_rosemary-eng
