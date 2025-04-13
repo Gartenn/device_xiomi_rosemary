@@ -509,3 +509,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rosemary/rosemary-vendor.mk)
+
+# Inherit Viper
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
