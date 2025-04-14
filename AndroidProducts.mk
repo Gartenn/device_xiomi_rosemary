@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ethereal_rosemary.mk
+    $(LOCAL_DIR)/legion_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     ethereal_rosemary-user \
-     ethereal_rosemary-userdebug \
-     ethereal_rosemary-eng
+     legion_rosemary-user \
+     legion_rosemary-userdebug \
+     legion_rosemary-eng
