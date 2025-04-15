@@ -9,13 +9,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from rosemary device
 $(call inherit-product, device/xiaomi/rosemary/device.mk)
 
 PRODUCT_DEVICE := rosemary
-PRODUCT_NAME   := legion_rosemary
+PRODUCT_NAME   := lineage_rosemary
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10S
 PRODUCT_MANUFACTURER := Xiaomi
@@ -32,4 +32,4 @@ USE_MOTO_CLOCK := true
 SYSTEM_OPTIMIZE_JAVA := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-LEGION_MAINTAINER := DrgnPrjkt
+BAIKAL_MAINTAINER := DrgnPrjkt
