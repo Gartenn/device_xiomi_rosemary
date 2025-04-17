@@ -9,13 +9,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/ethereal/config/common_full_phone.mk)
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # Inherit from rosemary device
 $(call inherit-product, device/xiaomi/rosemary/device.mk)
 
 PRODUCT_DEVICE := rosemary
-PRODUCT_NAME   := ethereal_rosemary
+PRODUCT_NAME   := afterlife_rosemary
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10S
 PRODUCT_MANUFACTURER := Xiaomi
@@ -31,6 +31,10 @@ SYSTEMUI_OPTIMIZE_JAVA := true
 SYSTEM_OPTIMIZE_JAVA := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-ETHEREAL_MAINTAINER := DrgnPrjkt
+AFTERLIFE_MAINTAINER := DrgnPrjkt
 TARGET_SUPPORTS_BLUR := true
 TARGET_SUPPORTS_TOUCHGESTURES := true
+
+# CoreGapps
+AFTERLIFE_GAPPS := true
+AFTERLIFE_CORE := true
