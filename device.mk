@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
