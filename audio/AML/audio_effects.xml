@@ -1,1 +1,22 @@
 
+<?xml version="1.0" encoding="UTF-8"?><!--
+    Audio Modification Library Dummy Configuration
+    Tujuan: Membantu kompatibilitas antara Dolby Atmos dan Viper4Android
+    Fungsi: Menghindari konflik file audio_effects.xml/audio_effects.conf saat runtime
+    Lokasi ideal: /odm/etc/audio_effects.xml
+--><audio_effects_conf version="2.0" xmlns="http://schemas.android.com/audio/audio_effects_conf/v2_0"> <libraries> <!-- Kosong secara default, diisi oleh Dolby/V4A saat runtime --> </libraries>
+
+<effects>
+    <!-- Kosong secara default, diisi oleh Dolby/V4A saat runtime -->
+</effects>
+
+<postprocess>
+    <!-- Kosong secara default -->
+</postprocess>
+
+<preprocess>
+    <!-- Kosong secara default -->
+</preprocess>
+
+</audio_effects_conf>
+
