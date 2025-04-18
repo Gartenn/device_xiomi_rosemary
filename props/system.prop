@@ -64,4 +64,4 @@ wifi.direct.interface=p2p0
 ro.hardware.wlan.dbs=0
 
 # Maintainer
-ro.spos.maintainer=DrgnPrjkt
+ro.arrow.maintainer=DrgnPrjkt
