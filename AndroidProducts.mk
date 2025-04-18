@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_rosemary.mk
+    $(LOCAL_DIR)/cherish_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     arrow_rosemary-user \
-     arrow_rosemary-userdebug \
-     arrow_rosemary-eng
+     cherish_rosemary-user \
+     cherish_rosemary-userdebug \
+     cherish_rosemary-eng
