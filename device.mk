@@ -513,7 +513,8 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-core/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-v32.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/aml/audio_effects.xml:vendor/odm/etc/audio_effects.xml
+    $(LOCAL_PATH)/audio/AML/audio_effects.xml:vendor/odm/etc/audio_effects.xml
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rosemary/rosemary-vendor.mk)
 
