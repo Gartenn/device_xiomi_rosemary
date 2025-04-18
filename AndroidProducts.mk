@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_rosemary.mk
+    $(LOCAL_DIR)/arrow_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     superior_rosemary-user \
-     superior_rosemary-userdebug \
-     superior_rosemary-eng
+     arrow_rosemary-user \
+     arrow_rosemary-userdebug \
+     arrow_rosemary-eng
