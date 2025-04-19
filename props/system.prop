@@ -65,3 +65,21 @@ ro.hardware.wlan.dbs=0
 
 # Maintainer
 ro.arrow.maintainer=DrgnPrjkt
+
+#Dolby
+
+persist.audio.dolby.ds2.enabled=true persist.audio.dolby.ds2.hardbypass=false
+
+#Viper4Android RE
+
+persist.viper.driver.enabled=true persist.viper.log=true persist.viper.kernel.path=/vendor/lib/soundfx/libv4a_re.so
+
+#Audio debug (opsional, aktifkan saat tracing)
+
+persist.vendor.audio.fluence.voicecall=true persist.vendor.audio.fluence.voicerec=false persist.vendor.audio.fluence.speaker=true persist.vendor.audio.log=true
+
+#MTK-specific props (jika perlu)
+
+persist.vendor.mtk.audio.support.sph_enhancement=true persist.vendor.mtk.audiodsp.support=true
+
+
