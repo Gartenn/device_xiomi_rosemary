@@ -91,6 +91,22 @@ PRODUCT_COPY_FILES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Dolby & Viper4Android & AML integration
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/aml/audio_effects.xml:vendor/etc/audio_effects.xml \
+    $(LOCAL_PATH)/audio/aml/audio_effects.conf:vendor/etc/audio_effects.conf \
+    $(LOCAL_PATH)/audio/aml/soundfx/placeholder.so:vendor/lib/soundfx/placeholder.so \
+    $(LOCAL_PATH)/rootdir/etc/init.dolby.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.dolby.rc \
+    $(LOCAL_PATH)/audio/libv4a_re.so:vendor/lib/soundfx/libv4a_re.so \
+    
+# Audio properties
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.audio.dolby.ds2.enabled=true \
+    persist.audio.dolby.ds2.hardbypass=false \
+    persist.viper.driver.enabled=true \
+    persist.viper.log=true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
