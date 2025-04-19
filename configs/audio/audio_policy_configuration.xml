@@ -1,13 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <audioPolicyConfiguration xmlns:ns0="http://www.w3.org/2001/XInclude" version="7.0">
     
-
-    
     <globalConfiguration speaker_drc_enabled="false" call_screen_mode_supported="true" />
 
-    
     <modules>
-        
         <module name="primary" halVersion="3.0">
             <attachedDevices>
                 <item>Speaker</item>
@@ -172,29 +168,12 @@
                 <route type="mix" sink="voip_tx" sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In" />
                 <route type="mix" sink="fast input" sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In" />
             </routes>
-
         </module>
-
-        
         <ns0:include href="bluetooth_audio_policy_configuration.xml" />
-
-        
         <ns0:include href="a2dp_in_audio_policy_configuration.xml" />
-
-        
         <ns0:include href="usb_audio_accessory_only_policy_configuration.xml" />
-
-        
         <ns0:include href="r_submix_audio_policy_configuration.xml" />
-
     </modules>
-    
-
-    
-
     <ns0:include href="audio_policy_volumes.xml" />
     <ns0:include href="default_volume_tables.xml" />
-
-    
-
 </audioPolicyConfiguration>
