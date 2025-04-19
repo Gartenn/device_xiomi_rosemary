@@ -98,14 +98,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/AML/placeholder.so:vendor/lib/soundfx/placeholder.so \
     $(LOCAL_PATH)/rootdir/etc/init.dolby.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.dolby.rc \
     
-# Audio properties
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.audio.dolby.ds2.enabled=true \
-    persist.audio.dolby.ds2.hardbypass=false \
-    persist.viper.driver.enabled=true \
-    persist.viper.log=true
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
