@@ -291,7 +291,44 @@
                 <route type="mix" sink="fast input"
                        sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,AUX Digital In,USB Device In,USB Headset In"/>
             </routes>
+<?xml version="1.0" encoding="UTF-8"?><audioPolicyConfiguration version="7.0" xmlns:xi="http://www.w3.org/2001/XInclude">  <globalConfiguration speaker_drc_enabled="true"/>   <modules>
+    <module name="primary" halVersion="3.0">
+      <mixPorts>
+        <mixPort name="primary output" role="source" flags="AUDIO_OUTPUT_FLAG_PRIMARY">
+          <defaultOutputDeviceEffects>
+              <effect name="v4a_standard_re"/>
+              <effect name="dax_effect_alt"/>
+          </defaultOutputDeviceEffects>
+          <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="44100" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+          <defaultOutputDeviceEffects>
+            <effect name="v4a_standard_re"/>
+            <effect name="dax_effect_alt"/>
+          </defaultOutputDeviceEffects>
+        </mixPort><mixPort name="deep_buffer" role="source" flags="AUDIO_OUTPUT_FLAG_DEEP_BUFFER">
+      <defaultOutputDeviceEffects>
+          <effect name="v4a_standard_re"/>
+          <effect name="dax_effect_alt"/>
+      </defaultOutputDeviceEffects>
+      <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+      <defaultOutputDeviceEffects>
+        <effect name="v4a_standard_re"/>
+        <effect name="dax_effect_alt"/>
+      </defaultOutputDeviceEffects>
+    </mixPort>
 
+    <mixPort name="fast" role="source" flags="AUDIO_OUTPUT_FLAG_FAST">
+      <defaultOutputDeviceEffects>
+          <effect name="v4a_standard_re"/>
+          <effect name="dax_effect_alt"/>
+      </defaultOutputDeviceEffects>
+      <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+      <defaultOutputDeviceEffects>
+        <effect name="v4a_standard_re"/>
+        <effect name="dax_effect_alt"/>
+      </defaultOutputDeviceEffects>
+    </mixPort>
+  </mixPorts>
+  <!-- Other configuration remains unchanged -->
         </module>
 
         <!-- BT Audio HAL -->
