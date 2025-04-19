@@ -93,9 +93,9 @@ TARGET_EXCLUDES_AUDIOFX := true
 
 # Dolby & Viper4Android & AML integration
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/aml/audio_effects.xml:vendor/etc/audio_effects.xml \
-    $(LOCAL_PATH)/audio/aml/audio_effects.conf:vendor/etc/audio_effects.conf \
-    $(LOCAL_PATH)/audio/aml/soundfx/placeholder.so:vendor/lib/soundfx/placeholder.so \
+    $(LOCAL_PATH)/audio/AML/audio_effects.xml:vendor/etc/audio_effects.xml \
+    $(LOCAL_PATH)/audio/AML/audio_effects.conf:vendor/etc/audio_effects.conf \
+    $(LOCAL_PATH)/audio/AML/placeholder.so:vendor/lib/soundfx/placeholder.so \
     $(LOCAL_PATH)/rootdir/etc/init.dolby.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.dolby.rc \
     $(LOCAL_PATH)/audio/libv4a_re.so:vendor/lib/soundfx/libv4a_re.so \
     
@@ -179,10 +179,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdrmclearkeyplugin \
     libmockdrmcryptoplugin
-
-#dolby
-PRODUCT_PACKAGES += \
-    init.dolby.rc
 
 # Exclude input devices
 PRODUCT_COPY_FILES += \
@@ -527,9 +523,6 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v32/arm/arch-arm-armv7-a-neon/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils-v32.so \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v32.so \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-core/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-v32.so
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/AML/audio_effects.xml:vendor/odm/etc/audio_effects.xml
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rosemary/rosemary-vendor.mk)
