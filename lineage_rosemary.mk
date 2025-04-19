@@ -9,13 +9,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from rosemary device
 $(call inherit-product, device/xiaomi/rosemary/device.mk)
 
 PRODUCT_DEVICE := rosemary
-PRODUCT_NAME   := cherish_rosemary
+PRODUCT_NAME   := lineage_rosemary
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10S
 PRODUCT_MANUFACTURER := Xiaomi
@@ -33,5 +33,4 @@ TARGET_SUPPORTS_BLUR := true
 USE_MOTO_CLOCK := true
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
-TARGET_CORE_GMS := true
-CHERISH_MAINTAINER := DrgnPrjkt
+LINEAGE_MAINTAINER := DrgnPrjkt
