@@ -74,5 +74,4 @@ persist.audio.dolby.ds2.hardbypass=false
 #Viper4Android RE
 
 persist.viper.driver.enabled=true 
-persist.viper.log=true 
 persist.viper.kernel.path=/vendor/lib/soundfx/libv4a_re.so
