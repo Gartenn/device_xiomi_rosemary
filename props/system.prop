@@ -66,12 +66,4 @@ ro.hardware.wlan.dbs=0
 # Maintainer
 ro.arrow.maintainer=DrgnPrjkt
 
-#Dolby
-persist.audio.dolby.ds2.enabled=true 
-persist.audio.dolby.ds2.hardbypass=false
-
-#Viper4Android RE
-persist.viper.driver.enabled=true 
-persist.viper.kernel.path=/vendor/lib/soundfx/libv4a_re.so
-
 ro.adb.secure=1
