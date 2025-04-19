@@ -319,8 +319,3 @@
     </sepolicy>
     <kernel target-level="5"/>
 </manifest>
-    <sepolicy>
-        <version>33.0</version>
-    </sepolicy>
-    <kernel target-level="5"/>
-</manifest>
