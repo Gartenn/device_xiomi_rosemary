@@ -322,12 +322,7 @@
           <effect name="dax_effect_alt"/>
       </defaultOutputDeviceEffects>
       <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-      <defaultOutputDeviceEffects>
-        <effect name="v4a_standard_re"/>
-        <effect name="dax_effect_alt"/>
-      </defaultOutputDeviceEffects>
-    </mixPort>
-  </mixPorts>
+      
   <!-- Other configuration remains unchanged -->
         </module>
 
