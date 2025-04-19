@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/AML/audio_effects.conf:vendor/etc/audio_effects.conf \
     $(LOCAL_PATH)/audio/AML/placeholder.so:vendor/lib/soundfx/placeholder.so \
     $(LOCAL_PATH)/rootdir/etc/init.dolby.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.dolby.rc \
-    $(LOCAL_PATH)/audio/libv4a_re.so:vendor/lib/soundfx/libv4a_re.so \
     
 # Audio properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
