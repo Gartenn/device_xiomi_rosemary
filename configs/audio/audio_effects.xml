@@ -28,6 +28,8 @@
     <effect name="downmix" library="downmix" uuid="93f04452-e4fe-41cc-91f9-e475b6d1d69f"/>
     <effect name="loudness_enhancer" library="loudness_enhancer" uuid="fa415329-2034-4bea-b5dc-5b381c8d1e2c"/>
     <effect name="dynamics_processing" library="dynamics_processing" uuid="e0e6539b-1781-7261-676f-6d7573696340"/>
+    <library name="aml" path="libaml.so"/>
+     <effect name="aml_effect" library="aml" uuid="fa55098a-9cc1-4f6b-a3df-66b61c8d403f"/>
 </effects>
 
 <postprocess>
