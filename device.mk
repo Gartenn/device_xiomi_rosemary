@@ -91,6 +91,9 @@ PRODUCT_COPY_FILES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Audio Modification Library
+PRODUCT_PACKAGES += \
+    AudioModificationLibrary
 
 # Bluetooth
 PRODUCT_PACKAGES += \
