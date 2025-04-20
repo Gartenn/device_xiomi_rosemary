@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fuse_rosemary.mk
+    $(LOCAL_DIR)/statix_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     fuse_rosemary-user \
-     fuse_rosemary-userdebug \
-     fuse_rosemary-eng
+     statix_rosemary-user \
+     statix_rosemary-userdebug \
+     statix_rosemary-eng
