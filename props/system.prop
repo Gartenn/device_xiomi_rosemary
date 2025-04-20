@@ -62,8 +62,3 @@ mediatek.wlan.ctia=0
 wifi.tethering.interface=ap0
 wifi.direct.interface=p2p0
 ro.hardware.wlan.dbs=0
-
-# Maintainer
-ro.arrow.maintainer=DrgnPrjkt
-
-ro.adb.secure=1
