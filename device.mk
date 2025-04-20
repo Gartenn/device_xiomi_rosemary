@@ -91,13 +91,7 @@ PRODUCT_COPY_FILES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
-# Dolby & Viper4Android & AML integration
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/AML/audio_effects.xml:vendor/etc/audio_effects.xml \
-    $(LOCAL_PATH)/audio/AML/audio_effects.conf:vendor/etc/audio_effects.conf \
-    $(LOCAL_PATH)/audio/AML/placeholder.so:vendor/lib/soundfx/placeholder.so \
-    $(LOCAL_PATH)/rootdir/etc/init.dolby.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.dolby.rc
-    
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
