@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_rosemary.mk
+    $(LOCAL_DIR)/banana_rosemary.mk
  
  COMMON_LUNCH_CHOICES := \
-     statix_rosemary-user \
-     statix_rosemary-userdebug \
-     statix_rosemary-eng
+     banana_rosemary-user \
+     banana_rosemary-userdebug \
+     banana_rosemary-eng
