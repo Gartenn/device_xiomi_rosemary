@@ -91,10 +91,6 @@ PRODUCT_COPY_FILES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
-# Audio Modification Library
-PRODUCT_PACKAGES += \
-    AudioModificationLibrary
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
@@ -517,6 +513,3 @@ $(call inherit-product, vendor/xiaomi/rosemary/rosemary-vendor.mk)
 
 # Inherit Viper
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
-# Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
